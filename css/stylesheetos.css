@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'Kaushan';
+    src: url(/Users/amir/Desktop/project/fonts/Kaushan_Script/KaushanScript-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url(/Users/amir/Desktop/project/fonts/Roboto-Medium.ttf);
+}
+.max-width{
+    width: 1120px;
+    margin: 0 auto;
+    
+    
+}
+body {
+    background-color: #FFF2D7;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(139, 139, 139);
+    width: 100%;
+    z-index: 999;
+    font-family: kaushan;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding */
+}
+.navbar a:hover {
+    background-color: hsl(0, 0%, 10%);
+     
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 20px; /* Adjust spacing between menu items */
+}
+
+
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.login a {
+    text-decoration: none;
+    font-family: kaushan;
+    color: white;
+    padding: 8px 12px; /* Adjust padding */
+    border-radius: 5px;
+    background-color: goldenrod;
+}
+
+.login a:hover {
+    background-color: hsl(0, 0%, 10%);
+}
+.logo2{
+    margin-left: -360px;
+    color:goldenrod ;
+}
+
+.art-of-cooking{
+    display:block;
+
+    
+}
+
+#logo37 h3{
+    font-family: kaushan;
+    display: inline-block;
+    color: goldenrod;
+   text-align: left;
+   text-indent: 20px;
+   line-height:20px;
+  
+  
+
+}
+.our-website{
+    display: block;
+    margin-top: 100px;
+    
+    
+}
+.our-website h2{
+    font-family: Roboto-Medium;
+    margin-left: 20px;
+    margin-top: -12px;
+    
+    
+}
+#icon7 a{
+    font-family: Roboto-Medium;
+    width: 35px;
+    height: 70px;
+     color: white;
+    text-decoration: none;
+     padding: 3px 12px; /* Adjust padding */
+    border-radius: 5px;
+    background-color: goldenrod;
+    margin-top: 100px;
+    margin-left: 440px;
+
+}
+#icon7 a:hover {
+    background-color: hsl(0, 0%, 10%);
+}
+
+main{
+ width: 100%;
+ min-height: 100vh;
+ display: flex;
+ background:url(../Images/art-of-cooking.jpeg) no-repeat;
+ background-size:700px 700px;
+ background-position: right center;
+ margin-top: -50px;
+}
+.video7{
+    display: flex;
+    margin-top: 120px;
+    margin-left: 10px;
+    height: 400px;
+    
+}
+section1-7{
+    display: flex;
+}
+.section2-7{
+    display: flexbox;
+  border: red solid;
+   
+      
+}
+table {
+  display:inline-table ;
+   position:absolute;
+   right: 0;
+   bottom: 0;
+  border-collapse: collapse;
+  width: 400px;;
+  height: 400px;
+  
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child( even) {background-color: #dbcad8;}
+tr:nth-child( odd) {background-color: #d5a1cc;}
+.t-caption{
+    align-items: center;
+    background-color: azure;
+    height: 40px;
+    line-height: 40px;
+}
