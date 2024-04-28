@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: #fff2d7;
+}
+
+.maxwidth {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 62px;
+    font-family: "Kaushan Script", sans-serif;
+    color: #333;
+}
+
+.golden {
+    color: goldenrod;
+}
+
+h2 {
+    font-size: 48px;
+    font-family: "Kaushan Script", sans-serif;
+    color: #333;
+}
+
+h3 {
+    font-size: 40px;
+    font-family: "Kaushan Script", sans-serif;
+    color: #333;
+}
+
+h4 {
+    font-size: 32px;
+    font-family: "Kaushan Script", sans-serif;
+    color: #333;
+}
+
+h5 {
+    font-size: 24px;
+    font-family: "Kaushan Script", sans-serif;
+    color: #333;
+}
+
+h6 {
+    font-size: 18px;
+    font-family: "Kaushan Script", sans-serif;
+    color: #333;
+}
+
+p {
+    font-style: Roboto, sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+    background-color: rgb(139, 139, 139);
+
+}
+
+.logo span {
+    font-size: 20px;
+    font-family: "Kaushan Script", sans-serif;
+    color: goldenrod;
+    background-color: rgb(139, 139, 139);
+    border-radius: 4px;
+    margin-left: -36px;
+    margin-bottom: -4px;
+}
+
+.logo {
+    display: flex;
+    background-color: rgb(139, 139, 139);
+    color: goldenrod;
+    align-items: center;
+}
+
+header {
+    padding: 8px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Kaushan Script", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(139, 139, 139);
+    z-index: 999;
+    margin-bottom: 32px;
+}
+
+nav {
+    background-color: rgb(139, 139, 139);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(139, 139, 139);
+}
+
+nav ul li {
+    margin: 0 12px;
+    background-color: rgb(139, 139, 139);
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-family: "Kaushan Script", sans-serif;
+    background-color: rgb(139, 139, 139);
+}
+
+.header-r a {
+    background-color: goldenrod;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+main {
+    margin: 8px;
+    display: flex;
+}
+
+main .hero-text {
+    font-family: Roboto;
+    font-weight: 600;
+    width: 50%;
+    padding: 100px 50px;
+}
+
+main .hero-images img {
+    margin-top: 16px;
+}
+
+div.btn {
+    display: flex;
+    align-items: flex-end;
+    justify-content: end
+}
+
+div.btn a {
+    background-color: goldenrod;
+    padding: 4px 8px;
+    border-radius: 6px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+.remi_video {
+    margin-top: 10px;
+}
+
+div.tbl {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+table {
+    display: inline-table;
+    border-collapse: collapse;
+    width: 400px;
+    height: 400px;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+tr:hover td{
+    background-color: #f5f5f5;
+}
+
+th,td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dbcad8;
+}
+
+tr:nth-child(odd) {
+    background-color: #d5a1cc;
+}
+
+.t-caption {
+    align-items: center;
+    background-color: azure;
+    height: 40px;
+    line-height: 40px;
+}
