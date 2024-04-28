@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+   
+}
+body{
     background-color: #fff2d7;
 }
 
@@ -194,7 +197,7 @@ th,td {
 }
 
 tr:nth-child(even) {
-    background-color: #dbcad8;
+    background-color: #d8d8d9;
 }
 
 tr:nth-child(odd) {
@@ -206,4 +209,23 @@ tr:nth-child(odd) {
     background-color: azure;
     height: 40px;
     line-height: 40px;
+}
+.content{
+    
+}
+.card img{
+    height: 400;
+}
+.card{
+    background-color: white;
+    width: 330px;
+    box-shadow: 0 5px 25px rgba(139,139 ,139, 100%);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
 }
