@@ -201,12 +201,12 @@ tr:nth-child(even) {
 }
 
 tr:nth-child(odd) {
-    background-color: #d5a1cc;
+    background-color: #b3a997;
 }
 
 .t-caption {
     align-items: center;
-    background-color: azure;
+    background-color: fff6e3;
     height: 40px;
     line-height: 40px;
 }
