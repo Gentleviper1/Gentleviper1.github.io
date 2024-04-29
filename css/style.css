@@ -184,7 +184,7 @@ table {
     width: 400px;
     height: 400px;
     user-select: none;
-    -webkit-user-select: none;
+    -webkit-user-select: none;/*for safari*/
 }
 
 tr:hover td{
