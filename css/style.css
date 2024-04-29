@@ -59,6 +59,7 @@ h6 {
 p {
     font-style: Roboto, sans-serif;
     font-size: 16px;
+    font-weight: 200;
     color: #333;
     line-height: 1.6;
 }
@@ -114,6 +115,9 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+nav a:hover{
+    background-color: hsl(0, 31%, 21%);
+}
 
 nav ul {
     display: flex;
@@ -138,7 +142,9 @@ nav ul li a {
     padding: 6px;
     border-radius: 6px;
 }
-
+.header-r a:hover{
+background-color: hsl(0, 31%, 21%);
+}
 main {
     margin: 8px;
     display: flex;
@@ -168,6 +174,9 @@ div.btn a {
     color: #ffffff;
     font-family: "Roboto", sans-serif;
     font-size: 18px;
+}
+.btn a:hover{
+     background-color: hsl(0, 31%, 21%);
 }
 
 .remi_video {
@@ -248,6 +257,7 @@ li.card {
 }
 
 div.card {
+    
     background-color: white;
     display: flex;
     width: 300px;
@@ -258,4 +268,23 @@ div.card {
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
+    transform: 0.7s ease;
+}
+.cards a:hover{
+    background-color: hsl(0, 31%, 21%);
+}
+.card:hover{
+    transform:scale(1.1);
+    background-color: hsl(0, 4%, 81%);
+}
+.card img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.recipe{
+    display: flex;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
 }
