@@ -273,15 +273,24 @@ div.card {
 .cards a:hover{
     background-color: hsl(0, 31%, 21%);
 }
-.card:hover{
+
+section.table-recpies li.cards a:hover{
+    background-color: none;
+    
+}
+section.table-recpies li.card a:hover{
+    background-color: none;
+    transform:scale(1.1);
+    
+}
+div.recipe .card:hover{
     transform:scale(1.1);
     background-color: hsl(0, 4%, 81%);
 }
-.card img{
+div.recpie .card img{
     max-width: 100%;
     border-radius: 10px;
 }
-
 .recipe{
     display: flex;
     border-radius: 10px;
