@@ -59,7 +59,7 @@ h6 {
 p {
     font-style: Roboto, sans-serif;
     font-size: 16px;
-    font-weight: 200;
+   
     color: #333;
     line-height: 1.6;
 }
@@ -287,4 +287,154 @@ div.card {
     border-radius: 10px;
     margin: 0;
     padding: 0;
+}
+
+.container7{
+	position: relative;
+	display: inline-block;
+	padding: 10px;
+    
+}
+.container7 input{
+	outline: none;
+	box-sizing: border-box;
+	height: 40px;
+	width: 0px;
+	padding: 0 20px;
+	color: black;
+	border-radius: 50px;
+	font-size: 20px;
+	border: 1px solid #292323;
+	transition: all .7s ease; 
+}
+::placeholder{
+	color: grey;
+}
+.search-btn{
+	position: absolute;
+	right: 0px;
+    top: 0px;
+	width: 60px;
+	height: 60px;
+	background: #292323;
+	line-height: 60px;
+	border-radius: 50%;
+	text-align: center;
+	cursor: pointer;
+	transition: .5s;
+}
+.search-btn i{
+	font-size: 25px;
+	color: white;
+	line-height: 60px;
+	transition: all .7s ease;
+}
+.container7:hover input{
+	width: 350px;
+}
+.container7:hover i{
+	transform: rotate(-360deg);
+}
+footer {
+ background-color:#b19292 ;
+  color: #b19292;
+  
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.footer-social h3 {
+  margin-bottom: 16px;
+  margin-left: 41px;
+}
+
+.footer-social ul {
+  display: flex;
+}
+
+.footer-social li {
+  margin-right: 16 px;
+  padding: 12px;
+}
+
+.footer-social a {
+  color: #fff;
+  font-size: 32px;
+  transition: color 0.3s;
+}
+
+.footer-social a:hover {
+  color: #ccc;
+}
+
+.footer-contact h3,
+.footer-comment h3 {
+  margin-bottom: 16px;
+}
+
+
+#comment-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-form input,
+#comment-form input,
+#contact-form textarea,
+#comment-form textarea {
+  margin-bottom: 16px;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+}
+
+
+#comment-form button {
+  padding: 8px 3px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
+#comment-form button:hover {
+  background-color: #3e8e41;
+}
+.footer-copyright {
+  text-align: center;
+  padding:16px 0;
+}
+
+.footer-copyright p {
+  margin: 0;
+}
+.contact-us7 a{
+    display:inline-block ;
+    padding: 12px;
+   
+}
+
+.contact-us7 a:hover{
+    color: #ccc;
+}
+#searchButton {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #292323;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+    transition:.5s;
 }
